@@ -16,7 +16,7 @@ Exercises covering the basic flow of a program: input, processing and output.
 - `ex008` – Multiples Numbers
 - `ex009` – Game Time
 - `ex010` – Restaurant 
-- `ex011` – Intervals
+- `ex011` – Intervals Ex.
 - `ex012` – Cordinates
 - `ex013` – Geometric areas
 
