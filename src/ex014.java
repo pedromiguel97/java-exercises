@@ -39,22 +39,33 @@ public class ex014 {
             System.out.println("Exempt");
         }
 
-        else {
-
-            double x = salary - 2000.00;
-
-            if (x >= 2000.01 &&  x <= 3000.00) {
-                System.out.printf("$ %.2f", x * 0.08);
+        else if (salary >= 2000.01 &&  salary <= 3000.00) {
+                double x =  (salary - 2000.00);
+                double total_tax = x * 0.08;
+                System.out.printf("$ %.2f", total_tax);
             }
 
-            else if  (x >= 3000.01 &&  x <= 4500.00) {
-                System.out.printf("$ %.2f", x * 0.18);
-            }
+        else if  (salary >= 3000.01 &&  salary <= 4500.00) {
 
-            else if  (x > 4500.00) {
-                System.out.printf("$ %.2f", x * 0.28);
-            }
+            double x =  (salary - 3000.00);
+            double tax_a = x * 0.18;
+
+            double tax_b =  (salary - (2000.00) - x);
+
+            double total_tax = (tax_a) + (tax_b * 0.08);
+            System.out.printf("$ %.2f", total_tax);
         }
 
+        else if  (salary > 4500.00) {
+
+            double x =  (salary - 4500.00);
+            double tax_a = x * 0.28;
+
+            double tax_b =  (salary - 3000.00 - x);
+            double tax_c = (salary - 2000.00 - x - tax_b);
+            double total_tax = (tax_a) + (tax_b * 0.18) + (tax_c * 0.08);
+
+            System.out.printf("$ %.2f", total_tax);
+        }
     }
 }
