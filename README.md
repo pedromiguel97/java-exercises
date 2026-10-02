@@ -19,6 +19,11 @@ Exercises covering the basic flow of a program: input, processing and output.
 - `ex011` – Intervals Ex.
 - `ex012` – Cordinates
 - `ex013` – Geometric areas
+- `ex014` – Income Tax calculation
+- `ex015` – Area and price calculation
+- `ex016` – Password validation
+- `ex017` – Cartesian quadrant identification
+- `ex018` – Fuel preference survey
 
 
 ## How to run
