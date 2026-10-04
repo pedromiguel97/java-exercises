@@ -36,3 +36,9 @@ src/vars.java
 ### IntelliJ (config local) ###
 .idea/
 *.iml
+# Android Code Studio
+src/.acside/
+src/gradle/
+src/gradle.properties
+src/gradlew
+src/gradlew.bat
