@@ -1,0 +1,17 @@
+@startuml
+class Product {
+  + Name : String
+  + Price : double
+  + Quantity : int
+  + TotalValueInStock() : double
+  + AddProducts(quantity: int) : void
+  + RemoveProducts(quantity: int) : void
+
+}
+
+class Program {
+  + {static} main(args : String[]) : void
+}
+
+Program ..> Product : uses
+@enduml

@@ -1,0 +1,14 @@
+@startuml
+class Triangle {
+  + a : double
+  + b : double
+  + c : double
+  + area() : double
+}
+
+class Program {
+  + {static} main(args : String[]) : void
+}
+
+Program ..> Triangle : usa
+@enduml
