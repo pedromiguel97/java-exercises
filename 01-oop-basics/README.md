@@ -47,6 +47,13 @@ Create a Product class to manage inventory:
 
 ---
 
+### Ex03 - Rectangle Values
+**File:** `src/application/Ex03_RectangleValues.java`
+
+**Problem:** _(enunciado pendente)_
+
+---
+
 ## How to Run
 
 ### Using IntelliJ IDEA

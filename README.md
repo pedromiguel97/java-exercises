@@ -1,49 +1,28 @@
 # Java Exercises
 
-A structured collection of Java exercises following the curriculum of [Nelio Alves' Java Course](https://www.udemy.com/course/java-completo/).
-
-Organized by topic with clear separation between foundational concepts and object-oriented programming.
+Coleção de exercícios de Java organizada por tema, separando conceitos básicos e orientação a objetos.
 
 ---
 
-## Course Structure
+## Estrutura do curso
 
-Exercises are organized by difficulty and topic:
-
-| Module | Topics | Status |
-|--------|--------|--------|
-| [00-sequential-structure](./00-sequential-structure/) | Input, Processing, Output, Variables, Operators | In Progress |
-| [01-oop-basics](./01-oop-basics/) | Classes, Objects, Methods, Attributes | In Progress |
-| 02-encapsulation | Getters/Setters, Access Modifiers | Coming Soon |
-| 03-inheritance | Class Inheritance, Super Keyword | Coming Soon |
-| 04-polymorphism | Method Overriding, Interfaces, Abstract Classes | Coming Soon |
-| 05-exceptions | Exception Handling, Try-Catch | Coming Soon |
-| 06-collections | ArrayList, HashMap, Collections Framework | Coming Soon |
+| Módulo | Tópicos |
+|--------|---------|
+| [00-sequential-structure](./00-sequential-structure/) | Entrada, processamento, saída, variáveis, operadores |
+| [01-oop-basics](./01-oop-basics/) | Classes, objetos, métodos, atributos |
+| 02-encapsulation | Getters/setters, modificadores de acesso |
+| 03-inheritance | Herança, palavra-chave super |
+| 04-polymorphism | Sobrescrita de métodos, interfaces, classes abstratas |
+| 05-exceptions | Tratamento de exceções, try-catch |
+| 06-collections | ArrayList, HashMap, framework de coleções |
 
 ---
 
-## Getting Started
+## Como executar
 
-### Prerequisites
-- Java 8 or higher
-- IntelliJ IDEA or any Java IDE
-- Git
+Pela IntelliJ IDEA: clique com o botão direito no arquivo e selecione "Run".
 
-### Setup
-
-```bash
-git clone https://github.com/pedromiguel97/java-exercises.git
-cd java-exercises
-```
-
-### Running Exercises
-
-Using IntelliJ IDEA:
-1. Open the project
-2. Right-click on any exercise file
-3. Select "Run"
-
-Using Command Line:
+Pela linha de comando:
 ```bash
 javac src/entities/*.java src/application/*.java
 java -cp . application.ExerciseName
@@ -51,93 +30,65 @@ java -cp . application.ExerciseName
 
 ---
 
-## Project Structure
+## Estrutura do projeto
 
 ```
 java-exercises/
-├── README.md                    # Main documentation
-├── LEARNING_PATH.md            # Detailed progression guide
-├── LICENSE
+├── README.md
 ├── .gitignore
 │
 ├── 00-sequential-structure/
-│   ├── README.md              # Module documentation
+│   ├── README.md
 │   └── src/
-│       ├── Ex001_SumTwoIntegers.java
-│       ├── Ex002_CircleArea.java
-│       └── (Add more exercises here)
 │
 ├── 01-oop-basics/
-│   ├── README.md              # Module documentation
+│   ├── README.md
 │   ├── src/
-│   │   ├── application/       # Main programs
+│   │   ├── application/       # Programas principais
 │   │   │   ├── Ex01_TriangleAreaComparison.java
-│   │   │   └── Ex02_ProductInventory.java
-│   │   └── entities/          # Class definitions
+│   │   │   ├── Ex02_ProductInventory.java
+│   │   │   └── Ex03_RectangleValues.java
+│   │   └── entities/          # Definições de classes
 │   │       ├── Triangle.java
 │   │       └── Product.java
 │   └── docs/
-│       └── diagrams/          # UML diagrams (PlantUML)
+│       └── diagrams/          # Diagramas UML (PlantUML)
 │
-├── 02-encapsulation/
-│   ├── README.md
-│   └── src/
-│       ├── application/
-│       └── entities/
-│
-└── (More modules...)
+└── (demais módulos...)
 ```
 
 ---
 
-## Adding New Exercises
+## Adicionando novos exercícios
 
-For each module, follow this pattern:
+1. Crie o arquivo `ExNN_NomeDoExercicio.java` na pasta `src/application/` do módulo
+2. Inclua o enunciado em comentário no topo do arquivo
+3. Crie as classes de entidade em `src/entities/`, se houver
+4. Atualize o README do módulo
 
-1. Create a new exercise file: `ExNN_ExerciseName.java`
-2. Add problem statement in comments at the top
-3. For OOP modules, create entity classes in `src/entities/`
-4. Update the module README
-
-Example:
+Exemplo:
 ```java
+package application;
+
 /*
- * Exercise NN: Exercise Name
- * 
+ * Exercise NN: Nome do Exercício
+ *
  * Problem:
- * Clear description of what to do
+ * Descrição do que deve ser feito
  */
-public class ExNN_ExerciseName {
+public class ExNN_NomeDoExercicio {
     public static void main(String[] args) {
-        // Implementation
+        // Implementação
     }
 }
 ```
 
 ---
 
-## Code Quality Standards
+## Padrões de código
 
-- Clean, readable code following Java conventions
-- Meaningful variable and method names
-- Problem statements in comments
-- No external dependencies (pure Java)
-- Progressive difficulty within each module
-
----
-
-## Learning Resources
-
-- [Java Completo - Nelio Alves (Udemy)](https://www.udemy.com/course/java-completo/)
-- [Oracle Java Documentation](https://docs.oracle.com/javase/)
-- [LEARNING_PATH.md](./LEARNING_PATH.md) - Detailed progression guide
-
----
-
-## License
-
-MIT License - see [LICENSE](LICENSE) file
-
----
-
-**Last Updated:** October 15, 2026
+- Código limpo e legível, seguindo as convenções do Java
+- Nomes significativos para variáveis e métodos
+- Enunciados em comentários
+- Sem dependências externas (Java puro)
+- Dificuldade progressiva dentro de cada módulo
