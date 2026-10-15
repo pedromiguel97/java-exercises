@@ -5,7 +5,22 @@ import entities.Triangle;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Program {
+/*
+ * Exercise 01: Triangle Area Comparison
+ *
+ * Problem:
+ * Create a Triangle class with three sides (a, b, c) and a method to calculate
+ * its area using Heron's formula. Then create a program that:
+ * 1. Reads measurements for two triangles (X and Y)
+ * 2. Calculates the area of each triangle
+ * 3. Displays both areas
+ * 4. Compares and displays which triangle has the larger area
+ *
+ * Heron's Formula: area = sqrt(s * (s-a) * (s-b) * (s-c))
+ * where s = (a + b + c) / 2
+ */
+
+public class Ex01_TriangleAreaComparison {
     public static void main(String[] args) {
 
         Locale.setDefault(Locale.US);

@@ -4,24 +4,43 @@ This document outlines the learning progression through this repository, based o
 
 ---
 
-## 📊 Module Progression
+## Module Progression
 
-### Module 01: Object-Oriented Programming Basics ✅
+### Module 00: Sequential Structure (In Progress)
 **Difficulty:** Beginner  
 **Estimated Time:** 1-2 weeks
 
 **What You'll Learn:**
-- ✓ Class definition and structure
-- ✓ Object instantiation with the `new` keyword
-- ✓ Attributes (instance variables)
-- ✓ Methods (instance behavior)
-- ✓ Method parameters and return types
-- ✓ Overriding `toString()` method
-- ✓ Object comparison and logic
+- Variables and data types
+- Input with Scanner
+- Basic arithmetic and logic
+- Output formatting
+- Control structures (if/else)
+
+**Before Moving On:**
+- [ ] Understand variable types and scope
+- [ ] Can read user input and process it
+- [ ] Understand basic operators
+- [ ] Can format output appropriately
+
+---
+
+### Module 01: Object-Oriented Programming Basics
+**Difficulty:** Beginner  
+**Estimated Time:** 1-2 weeks
+
+**What You'll Learn:**
+- Class definition and structure
+- Object instantiation with the `new` keyword
+- Attributes (instance variables)
+- Methods (instance behavior)
+- Method parameters and return types
+- Overriding `toString()` method
+- Object comparison and logic
 
 **Exercises:**
-1. **Product Class** - Managing inventory data
-2. **Triangle Class** - Calculating area (Heron's formula)
+1. Ex01_TriangleAreaComparison - Calculating area (Heron's formula)
+2. Ex02_ProductInventory - Managing inventory data
 
 **Key Concepts:**
 ```java
@@ -55,7 +74,7 @@ obj.methodName(value);
 
 ---
 
-### Module 02: Encapsulation (Coming Soon) 🔜
+### Module 02: Encapsulation (Coming Soon)
 **Difficulty:** Beginner-Intermediate  
 **Estimated Time:** 1-2 weeks
 
@@ -90,7 +109,7 @@ public class Person {
 
 ---
 
-### Module 03: Inheritance (Coming Soon) 🔜
+### Module 03: Inheritance (Coming Soon)
 **Difficulty:** Intermediate  
 **Estimated Time:** 2-3 weeks
 
@@ -105,7 +124,7 @@ public class Person {
 
 ---
 
-### Module 04: Polymorphism (Coming Soon) 🔜
+### Module 04: Polymorphism (Coming Soon)
 **Difficulty:** Intermediate-Advanced  
 **Estimated Time:** 2-3 weeks
 
@@ -119,7 +138,7 @@ public class Person {
 
 ---
 
-### Module 05: Exception Handling (Coming Soon) 🔜
+### Module 05: Exception Handling (Coming Soon)
 **Difficulty:** Intermediate  
 **Estimated Time:** 1-2 weeks
 
@@ -133,7 +152,7 @@ public class Person {
 
 ---
 
-### Module 06: Collections Framework (Coming Soon) 🔜
+### Module 06: Collections Framework (Coming Soon)
 **Difficulty:** Intermediate-Advanced  
 **Estimated Time:** 2-3 weeks
 
@@ -147,7 +166,7 @@ public class Person {
 
 ---
 
-## 🎯 Study Tips
+## Study Guidelines
 
 1. **Don't Skip Modules**
    - Each module builds on the previous one
@@ -173,19 +192,20 @@ public class Person {
 
 ---
 
-## 📚 External Resources
+## External Resources
 
-- **Official Java Docs:** [docs.oracle.com/javase/](https://docs.oracle.com/javase/)
-- **Java Tutorial:** [oracle.com/java/technologies/java-tutorial](https://docs.oracle.com/javase/tutorial/)
-- **Nelio Alves Course:** [udemy.com/course/java-completo/](https://www.udemy.com/course/java-completo/)
+- Official Java Docs: [docs.oracle.com/javase/](https://docs.oracle.com/javase/)
+- Java Tutorial: [oracle.com/java/technologies/java-tutorial](https://docs.oracle.com/javase/tutorial/)
+- Nelio Alves Course: [udemy.com/course/java-completo/](https://www.udemy.com/course/java-completo/)
 
 ---
 
-## ✅ Progress Tracking
+## Progress Tracking
 
 **Current Status:**
-- Module 01: ✅ Complete (Basics)
-- Module 02: 🔜 Next (Encapsulation)
-- Modules 03-06: 🔜 Planned
+- Module 00: In Progress (Sequential Structure)
+- Module 01: In Progress (OOP Basics)
+- Module 02: Planned (Encapsulation)
+- Modules 03-06: Planned
 
 **Last Update:** October 15, 2026

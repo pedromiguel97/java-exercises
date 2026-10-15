@@ -1,80 +1,81 @@
-# Java Exercises - Object-Oriented Programming
+# Java Exercises
 
-A comprehensive collection of Object-Oriented Programming exercises in Java, following the curriculum of [**Nelio Alves' Java Course**](https://www.udemy.com/course/java-completo/).
+A structured collection of Java exercises following the curriculum of [Nelio Alves' Java Course](https://www.udemy.com/course/java-completo/).
 
-This repository is designed for learning and professional development, with clean, well-documented code focusing on industry best practices.
+Organized by topic with clear separation between foundational concepts and object-oriented programming.
 
 ---
 
-## 📚 Course Structure
+## Course Structure
 
-The exercises are organized by topic, following a progressive learning path:
+Exercises are organized by difficulty and topic:
 
 | Module | Topics | Status |
 |--------|--------|--------|
-| [**01-basics**](./01-basics/) | Classes, Objects, Methods, Attributes | ✅ In Progress |
-| **02-encapsulation** | Getters/Setters, Access Modifiers, Encapsulation | 🔜 Coming Soon |
-| **03-inheritance** | Class Inheritance, Super Keyword, Polymorphism | 🔜 Coming Soon |
-| **04-polymorphism** | Method Overriding, Interfaces, Abstract Classes | 🔜 Coming Soon |
-| **05-exceptions** | Exception Handling, Try-Catch, Custom Exceptions | 🔜 Coming Soon |
-| **06-collections** | ArrayList, HashMap, Collections Framework | 🔜 Coming Soon |
+| [00-sequential-structure](./00-sequential-structure/) | Input, Processing, Output, Variables, Operators | In Progress |
+| [01-oop-basics](./01-oop-basics/) | Classes, Objects, Methods, Attributes | In Progress |
+| 02-encapsulation | Getters/Setters, Access Modifiers | Coming Soon |
+| 03-inheritance | Class Inheritance, Super Keyword | Coming Soon |
+| 04-polymorphism | Method Overriding, Interfaces, Abstract Classes | Coming Soon |
+| 05-exceptions | Exception Handling, Try-Catch | Coming Soon |
+| 06-collections | ArrayList, HashMap, Collections Framework | Coming Soon |
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Java 8 or higher
-- IntelliJ IDEA (recommended) or any Java IDE
-- Basic command line knowledge
+- IntelliJ IDEA or any Java IDE
+- Git
 
-### How to Use This Repository
+### Setup
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/yourusername/java-exercises.git
-   cd java-exercises
-   ```
+```bash
+git clone https://github.com/pedromiguel97/java-exercises.git
+cd java-exercises
+```
 
-2. **Navigate to a module:**
-   ```bash
-   cd 01-basics
-   ```
+### Running Exercises
 
-3. **Read the module README:**
-   Each module contains a `README.md` explaining the concepts and exercises.
+Using IntelliJ IDEA:
+1. Open the project
+2. Right-click on any exercise file
+3. Select "Run"
 
-4. **Run an exercise:**
-   - In IntelliJ: Right-click on `Program.java` → "Run"
-   - Or use the command line (see module README)
-
----
-
-## 📖 Learning Resources
-
-- **Course:** [Java Completo - Nelio Alves (Udemy)](https://www.udemy.com/course/java-completo/)
-- **Official Java Documentation:** [oracle.com/java/](https://docs.oracle.com/javase/)
-- **Key Concepts in Each Module:**
-  - Each `README.md` includes learning objectives
-  - Code comments explain important concepts
-  - Diagrams (PlantUML) visualize class relationships
+Using Command Line:
+```bash
+javac src/entities/*.java src/application/*.java
+java -cp . application.ExerciseName
+```
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 java-exercises/
-├── README.md                    # You are here
-├── LEARNING_PATH.md            # Detailed learning progression
+├── README.md                    # Main documentation
+├── LEARNING_PATH.md            # Detailed progression guide
 ├── LICENSE
 ├── .gitignore
 │
-├── 01-basics/
-│   ├── README.md              # Module guide
+├── 00-sequential-structure/
+│   ├── README.md              # Module documentation
+│   └── src/
+│       ├── Ex001_SumTwoIntegers.java
+│       ├── Ex002_CircleArea.java
+│       └── (Add more exercises here)
+│
+├── 01-oop-basics/
+│   ├── README.md              # Module documentation
 │   ├── src/
-│   │   ├── application/       # Main programs (entry points)
-│   │   └── entities/          # Classes and business logic
+│   │   ├── application/       # Main programs
+│   │   │   ├── Ex01_TriangleAreaComparison.java
+│   │   │   └── Ex02_ProductInventory.java
+│   │   └── entities/          # Class definitions
+│   │       ├── Triangle.java
+│   │       └── Product.java
 │   └── docs/
 │       └── diagrams/          # UML diagrams (PlantUML)
 │
@@ -89,35 +90,54 @@ java-exercises/
 
 ---
 
-## 💡 Code Quality
+## Adding New Exercises
 
-- ✅ Clean, readable code following Java conventions
-- ✅ Meaningful variable and method names
-- ✅ Comments on complex logic only
-- ✅ No external dependencies (pure Java)
-- ✅ Progressive difficulty
+For each module, follow this pattern:
 
----
+1. Create a new exercise file: `ExNN_ExerciseName.java`
+2. Add problem statement in comments at the top
+3. For OOP modules, create entity classes in `src/entities/`
+4. Update the module README
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 👤 Author
-
-**Pedro Miguel**
-
-Learning Java OOP through systematic practice and documentation.
-
----
-
-## 🤝 Contributing
-
-This is a personal learning repository, but feel free to fork it and adapt it for your own studies!
+Example:
+```java
+/*
+ * Exercise NN: Exercise Name
+ * 
+ * Problem:
+ * Clear description of what to do
+ */
+public class ExNN_ExerciseName {
+    public static void main(String[] args) {
+        // Implementation
+    }
+}
+```
 
 ---
 
-**Last Updated:** October 2026  
-**Course Progress:** Module 01/06 ✓
+## Code Quality Standards
+
+- Clean, readable code following Java conventions
+- Meaningful variable and method names
+- Problem statements in comments
+- No external dependencies (pure Java)
+- Progressive difficulty within each module
+
+---
+
+## Learning Resources
+
+- [Java Completo - Nelio Alves (Udemy)](https://www.udemy.com/course/java-completo/)
+- [Oracle Java Documentation](https://docs.oracle.com/javase/)
+- [LEARNING_PATH.md](./LEARNING_PATH.md) - Detailed progression guide
+
+---
+
+## License
+
+MIT License - see [LICENSE](LICENSE) file
+
+---
+
+**Last Updated:** October 15, 2026
