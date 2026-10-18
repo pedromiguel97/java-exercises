@@ -52,3 +52,7 @@ pom.xml.releaseBackup
 Thumbs.db
 .DS_Storenode_modules/
 node_modules/
+.idea/
+*.iml
+.idea/
+*.iml
