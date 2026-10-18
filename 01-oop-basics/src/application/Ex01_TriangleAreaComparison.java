@@ -1,7 +1,6 @@
 package application;
 
 import entities.Triangle;
-
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -21,8 +20,8 @@ import java.util.Scanner;
  */
 
 public class Ex01_TriangleAreaComparison {
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
@@ -36,7 +35,7 @@ public class Ex01_TriangleAreaComparison {
         x.c = sc.nextDouble();
 
         System.out.println("Enter the measures of triangle Y: ");
-        y.a =  sc.nextDouble();
+        y.a = sc.nextDouble();
         y.b = sc.nextDouble();
         y.c = sc.nextDouble();
 
@@ -47,10 +46,9 @@ public class Ex01_TriangleAreaComparison {
         System.out.printf("Triangle X Area = %.4f%n", areaX);
         System.out.printf("Triangle Y Area = %.4f%n", areaY);
 
-        if  (areaX > areaY) {
+        if (areaX > areaY) {
             System.out.println("Largest triangle area is Triangle X");
-        }
-        else {
+        } else {
             System.out.println("Largest triangle area is Triangle Y");
         }
 

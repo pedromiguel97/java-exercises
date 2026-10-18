@@ -35,8 +35,8 @@
 import java.util.Scanner;
 
 public class ex018 {
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         // codes
@@ -53,7 +53,6 @@ public class ex018 {
 
         // condition
         while (choice != 4) {
-
             if (choice < 4 && choice > 0) {
                 switch (choice) {
                     case 1:
@@ -69,9 +68,7 @@ public class ex018 {
                         choice = sc.nextInt();
                         break;
                 }
-            }
-
-            else {
+            } else {
                 System.out.println("ERROR: INVALID CHOICE. Please try again.");
                 choice = sc.nextInt();
             }
@@ -82,5 +79,4 @@ public class ex018 {
         System.out.println(qtd_gasoline);
         System.out.println(qtd_diesel);
     }
-
 }

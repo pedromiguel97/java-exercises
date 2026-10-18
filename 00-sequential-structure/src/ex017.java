@@ -10,8 +10,8 @@
 import java.util.Scanner;
 
 public class ex017 {
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
         // scanner
         Scanner sc = new Scanner(System.in);
 
@@ -26,21 +26,14 @@ public class ex017 {
         int y = sc.nextInt();
 
         // condition
-        while ((x != 0) && (y != 0)) {
-
+        while (x != 0 && y != 0) {
             if (x > 0 && y > 0) {
                 System.out.println("Q1");
-            }
-
-            else if (x < 0 && y > 0) {
+            } else if (x < 0 && y > 0) {
                 System.out.println("Q2");
-            }
-
-            else if (x < 0 && y < 0) {
+            } else if (x < 0 && y < 0) {
                 System.out.println("Q3");
-            }
-
-            else if ((x > 0 && y < 0)) {
+            } else if (x > 0 && y < 0) {
                 System.out.println("Q4");
             }
 

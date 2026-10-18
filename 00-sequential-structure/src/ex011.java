@@ -17,8 +17,8 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class ex011 {
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
@@ -32,26 +32,16 @@ public class ex011 {
         int amount = sc.nextInt();
 
         if (item == 1) {
-            System.out.printf("TOTAL PRIZE: $ %.2f%n",price_hot_dog * amount);
-        }
-
-        else if (item == 2) {
-            System.out.printf("TOTAL PRIZE: $ %.2f%n",x_salad * amount);
-        }
-
-        else if (item == 3) {
-            System.out.printf("TOTAL PRIZE: $ %.2f%n",x_bacon * amount);
-        }
-
-        else if (item == 4) {
-            System.out.printf("TOTAL PRIZE: $ %.2f%n",toast * amount);
-        }
-
-        else if (item == 5) {
-            System.out.printf("TOTAL PRIZE: $ %.2f%n",soda * amount);
-        }
-
-        else {
+            System.out.printf("TOTAL PRIZE: $ %.2f%n", price_hot_dog * amount);
+        } else if (item == 2) {
+            System.out.printf("TOTAL PRIZE: $ %.2f%n", x_salad * amount);
+        } else if (item == 3) {
+            System.out.printf("TOTAL PRIZE: $ %.2f%n", x_bacon * amount);
+        } else if (item == 4) {
+            System.out.printf("TOTAL PRIZE: $ %.2f%n", toast * amount);
+        } else if (item == 5) {
+            System.out.printf("TOTAL PRIZE: $ %.2f%n", soda * amount);
+        } else {
             System.out.println("Invalid Value.");
         }
     }

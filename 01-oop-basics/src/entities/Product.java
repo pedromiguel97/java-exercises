@@ -11,29 +11,30 @@ public class Product {
     // functionName(PARAMETER): input parameter
 
     // object method
-    public double totalValueInStock(){
+    public double totalValueInStock() {
         return price * quantity;
     }
 
     // static method
-    public void addProducts(int quantity){
+    public void addProducts(int quantity) {
         this.quantity += quantity;
     }
 
     // static method
-    public void removeProducts(int quantity){
+    public void removeProducts(int quantity) {
         this.quantity -= quantity;
     }
 
-    public String toString(){
-        return "Product data: "
-                + name
-                + ", $ "
-                + String.format("%.2f", price)
-                + ", "
-                + quantity
-                + " units, Total: $ "
-                + String.format("%.2f", totalValueInStock());
+    public String toString() {
+        return (
+            "Product data: " +
+            name +
+            ", $ " +
+            String.format("%.2f", price) +
+            ", " +
+            quantity +
+            " units, Total: $ " +
+            String.format("%.2f", totalValueInStock())
+        );
     }
-
 }

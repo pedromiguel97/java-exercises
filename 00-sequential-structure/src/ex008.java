@@ -4,10 +4,9 @@ Write a program that reads an integer and tells whether this number is even or o
 
 import java.util.Scanner;
 
-public class ex008
-{
-    public static void main(String[] args)
-    {
+public class ex008 {
+
+    public static void main(String[] args) {
         // scanner
         Scanner sc = new Scanner(System.in);
 
@@ -15,12 +14,10 @@ public class ex008
         int n = sc.nextInt();
 
         // return
-        if (n % 2 == 0){
+        if (n % 2 == 0) {
             System.out.println("Even");
-        }
-        else{
+        } else {
             System.out.println("Odd");
         }
-
     }
 }

@@ -12,7 +12,6 @@ import java.util.Scanner;
 public class ex016 {
 
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
 
         // input
@@ -21,9 +20,7 @@ public class ex016 {
         while (pwd != 2022) {
             System.out.println("Invalid Password");
             pwd = sc.nextInt();
-            }
+        }
         System.out.println("Access Granted");
-
     }
-
 }

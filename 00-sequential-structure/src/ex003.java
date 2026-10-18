@@ -9,8 +9,8 @@
 import java.util.Scanner;
 
 public class ex003 {
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
         // scanner: input data function
         Scanner sc = new Scanner(System.in);
 
@@ -23,7 +23,7 @@ public class ex003 {
         c = sc.nextInt();
         d = sc.nextInt();
 
-        diff = (a * b - c * d);
+        diff = a * b - c * d;
         System.out.println("DIFFERENCE = " + diff);
     }
 }

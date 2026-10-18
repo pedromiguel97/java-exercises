@@ -1,13 +1,12 @@
 package application;
 
 import entities.Rectangle;
-
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Ex03_RectangleValues  {
-    public static void main(String[] args) {
+public class Ex03_RectangleValues {
 
+    public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 

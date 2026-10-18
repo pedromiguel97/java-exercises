@@ -8,7 +8,6 @@ import java.util.Scanner;
 public class ex007 {
 
     public static void main(String[] args) throws IOException {
-
         /*
          * Escreva a sua solução aqui
          * Code your solution here
@@ -24,16 +23,12 @@ public class ex007 {
         // input
         x = sc.nextInt();
 
-        if (x < 0){
+        if (x < 0) {
             System.out.println("Negative number");
-        }
-
-        else {
+        } else {
             System.out.println("Not negative number");
         }
 
         sc.close();
-
     }
-
 }

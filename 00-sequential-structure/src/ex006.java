@@ -1,3 +1,4 @@
+import java.util.Locale;
 /*
  * Write a program that reads three double-precision floating-point
  * values: A, B and C. Then, calculate and display:
@@ -12,11 +13,10 @@
  */
 
 import java.util.Scanner;
-import java.util.Locale;
 
 public class ex006 {
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
         // set locale
         // always before scanner
         Locale.setDefault(Locale.US);
@@ -25,7 +25,7 @@ public class ex006 {
         Scanner sc = new Scanner(System.in);
 
         // input vars
-        double A,  B, C;
+        double A, B, C;
         double pi = 3.14159;
 
         A = sc.nextDouble();
@@ -33,13 +33,13 @@ public class ex006 {
         C = sc.nextDouble();
 
         // A) AREA = A * C / 2.0
-        double triangle = A * C / 2.0;
+        double triangle = (A * C) / 2.0;
 
         // B) AREA = A * C / 2.0
         double circle = pi * C * C;
 
         // C) AREA = A * C / 2.0
-        double trapezoid = (A + B) / 2.0 * C;
+        double trapezoid = ((A + B) / 2.0) * C;
 
         // D) AREA = A * C / 2.0
         double square = B * B;

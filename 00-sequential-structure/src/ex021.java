@@ -22,8 +22,8 @@ import java.util.Scanner;
  * 7.0
  */
 public class ex021 {
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
         Locale.setDefault(Locale.US);
 
         // scanner
@@ -33,12 +33,11 @@ public class ex021 {
         int rounds = sc.nextInt();
 
         for (int c = 0; c < rounds; c++) {
-
             double v1 = sc.nextDouble();
             double v2 = sc.nextDouble();
             double v3 = sc.nextDouble();
 
-            double average = ((v1 * 2.0) + (v2 * 3.0) + (v3 * 5.0)) / 10;
+            double average = (v1 * 2.0 + v2 * 3.0 + v3 * 5.0) / 10;
 
             System.out.printf("%.1f", average);
         }

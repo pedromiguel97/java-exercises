@@ -12,8 +12,8 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class ex002 {
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
         // set locale
         Locale.setDefault(Locale.US);
 
@@ -21,7 +21,9 @@ public class ex002 {
         Scanner sc = new Scanner(System.in);
 
         // vars init
-        double area, radius, pi = 3.14159;
+        double area,
+            radius,
+            pi = 3.14159;
 
         radius = sc.nextDouble();
 
@@ -30,4 +32,3 @@ public class ex002 {
         System.out.printf("AREA = %.4f%n", area);
     }
 }
-

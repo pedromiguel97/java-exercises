@@ -5,8 +5,8 @@
 import java.util.Scanner;
 
 public class ex009 {
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
         int A = input.nextInt();
@@ -15,10 +15,9 @@ public class ex009 {
         // Conditions:
         // 1 - Same number;
         // 2 - MOD == 0;
-        if ((A == B) || (A % B == 0) || (B % A == 0)) {
+        if (A == B || A % B == 0 || B % A == 0) {
             System.out.println("Are Multiples");
-        }
-        else {
+        } else {
             System.out.println("Are Not Multiples");
         }
     }
