@@ -51,3 +51,4 @@ pom.xml.releaseBackup
 ### System Files ###
 Thumbs.db
 .DS_Storenode_modules/
+node_modules/
