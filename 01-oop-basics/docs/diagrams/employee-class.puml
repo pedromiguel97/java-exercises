@@ -1,0 +1,15 @@
+@startuml
+class Employee {
+- Name: String
+- GlossSalary: double
+- Tax: double
++ NetSalary(): double
++ IncreaseSalary(percentage: double): void
+}
+
+class Ex04 {
+  + {static} main(args : String[]) : void
+}
+
+Ex04 ..> Employee : uses
+@enduml
