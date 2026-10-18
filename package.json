@@ -1,0 +1,25 @@
+{
+  "name": "java-oop",
+  "version": "1.0.0",
+  "description": "Coleção de exercícios de Java organizada por tema, separando conceitos básicos e orientação a objetos.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedromiguel97/java-exercises.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/pedromiguel97/java-exercises/issues"
+  },
+  "homepage": "https://github.com/pedromiguel97/java-exercises#readme",
+  "devDependencies": {
+    "prettier": "3.9.10",
+    "prettier-plugin-java": "2.11.0"
+  }
+}

@@ -1,14 +1,14 @@
 @startuml
 class Triangle {
-  + a : double
-  + b : double
-  + c : double
+  - a : double
+  - b : double
+  - c : double
   + area() : double
 }
 
-class Program {
+class Ex01 {
   + {static} main(args : String[]) : void
 }
 
-Program ..> Triangle : usa
+Ex01 ..> Triangle : uses
 @enduml

@@ -1,0 +1,15 @@
+@startuml
+class Rectangle {
+    - Width: double
+    - Height: double
+    + Area(): double
+    + Perimeter(): double
+    + Diagonal(): double
+}
+
+class Ex03 {
+    + {static} main(args : String[]) : void
+}
+
+Ex03 ..> Rectangle : uses
+@enduml
