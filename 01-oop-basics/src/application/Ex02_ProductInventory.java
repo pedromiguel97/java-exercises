@@ -49,7 +49,7 @@ public class Ex02_ProductInventory {
 
         System.out.println();
         System.out.println("Enter the number of products to be added in stock: ");
-        quantity = sc.nextInt();
+        int quantity = sc.nextInt();
         product.addProducts(quantity);
 
         System.out.println();
