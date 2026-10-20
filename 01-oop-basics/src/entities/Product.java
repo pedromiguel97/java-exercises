@@ -2,18 +2,45 @@ package entities;
 
 public class Product {
 
-    public String name;
-    public double price;
-    public int quantity;
+    // public/private: access modifier
+    // void/String/double/int/etc: return type
+    // functionName(PARAMETER): input parameter
+
+    private String name;
+    private double price;
+    private int quantity;
 
     public Product(String name, double price, int quantity) {
         this.name = name;
         this.price = price;
         this.quantity = quantity;
     }
-    // public/private: access modifier
-    // void/String/double/int/etc: return type
-    // functionName(PARAMETER): input parameter
+
+    // overload
+    public Product(String name, double price) {
+        this.name = name;
+        this.price = price;
+    }
+
+    public void setName(String name)  {
+        this.name = name;
+    }
+
+    public String getName()  {
+        return name;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    public double getPrice()  {
+        return price;
+    }
+
+    public int getQuantity()  {
+        return quantity;
+    }
 
     // object method
     public double totalValueInStock() {

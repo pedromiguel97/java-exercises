@@ -36,10 +36,13 @@ public class Ex02_ProductInventory {
         System.out.print("Price: ");
         double price = sc.nextDouble();
 
-        System.out.print("Quantity: ");
-        int quantity = sc.nextInt();
+        Product product = new Product(name, price);
 
-        Product product = new Product(name, price, quantity);
+        product.setName("Computer");
+        System.out.print("Updated name: " + product.getName());
+
+        product.setPrice(1200.00);
+        System.out.print("Updated price: " + product.getPrice());
 
         System.out.println();
         System.out.println(product);
