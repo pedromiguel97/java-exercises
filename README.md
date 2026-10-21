@@ -4,15 +4,15 @@ Java exercises for practicing programming fundamentals and object-oriented progr
 
 ## Modules
 
-| Module | Topics |
-|---|---|
+| Module                                             | Topics |
+|----------------------------------------------------|---|
 | [00-sequential-structure](00-sequential-structure) | Input, output, variables, operators |
-| [01-oop-basics](01-oop-basics) | Classes, objects, attributes, methods |
-| 02-encapsulation | Getters/setters, access modifiers |
-| 03-inheritance | Inheritance, `super` |
-| 04-polymorphism | Overriding, interfaces, abstract classes |
-| 05-exceptions | Exception handling, try-catch |
-| 06-collections | ArrayList, HashMap |
+| [01-oop-basics](01-oop-basics)                     | Classes, objects, attributes, methods |
+| [02-encapsulation](02-encapsulation)               | Getters/setters, access modifiers |
+| 03-inheritance                                     | Inheritance, `super` |
+| 04-polymorphism                                    | Overriding, interfaces, abstract classes |
+| 05-exceptions                                      | Exception handling, try-catch |
+| 06-collections                                     | ArrayList, HashMap |
 
 ## Running
 
